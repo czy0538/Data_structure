@@ -18,5 +18,11 @@
     <ClCompile Include="1-01A-5有穷性Hailstone%28n%29.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="0.(Add).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="1.简单表达式(Expr).cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

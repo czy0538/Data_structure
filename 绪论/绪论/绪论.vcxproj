@@ -143,7 +143,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="0.(Add).cpp" />
     <ClCompile Include="1-01A-5有穷性Hailstone%28n%29.cpp" />
+    <ClCompile Include="1.简单表达式(Expr).cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
