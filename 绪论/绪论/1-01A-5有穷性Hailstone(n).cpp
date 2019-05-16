@@ -16,10 +16,10 @@ void hailstone(LL n)
 	}
 	cout <<"ÔËËã´ÎÊı"<< length << endl;
 }
-//int main()
-//{
-//	LL n;
-//	cin >> n;
-//	hailstone(n);
-//	return 0;
-//}
+int main()
+{
+	LL n;
+	cin >> n;
+	hailstone(n);
+	return 0;
+}
