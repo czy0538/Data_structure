@@ -12,5 +12,6 @@ template <typename T> void Vector<T>::expand()
 	{
 		_elem[i] = oldElem[i];//=被重载过,或T为基本类型
 	}
+	
 	delete[]oldElem;
 }

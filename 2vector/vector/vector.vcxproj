@@ -145,8 +145,12 @@
   <ItemGroup>
     <ClCompile Include="copyFrom.cpp" />
     <ClCompile Include="expand.cpp" />
+    <ClCompile Include="find.cpp" />
+    <ClCompile Include="insert.cpp" />
     <ClCompile Include="operator.cpp" />
+    <ClCompile Include="remove.cpp" />
     <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="visit.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="vector.h" />

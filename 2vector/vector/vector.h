@@ -18,5 +18,17 @@ public:
 
 	//operater function area
 	T& operator[] (Rank r) const;
+
+	//Tool function ares
+
+	Rank insert(Rank r, T const& e);
+	unsigned remove(Rank lo, Rank hi);
+	T remove(Rank r);
+	Rank find(T const& e, Rank lo, Rank hi) const;//遍历查找
+	int deduplicate();//去重
+	void traverse(void(*visit)(T&));
+	template <typename VST> void traverse(VST& visit);
+
+
 };
 
