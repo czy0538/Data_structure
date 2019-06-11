@@ -10,15 +10,17 @@ int main()
 {
 	double n;
 	cin >> n;
-	double a[MAXN];
-	for (int i = 0; i < MAXN; ++i)
+	double a[9];
+	for (int i = 0; i < 9; ++i)
 		a[i] = (double)i;
 	T1.start();
-	f1(MAXN-1,a,n);
+	for(long long i=0;i<MAXN;++i)
+	f1(9,a,n);
 	T1.stop();
 
 	T2.start();
-	f2(MAXN - 1, a, n);
+	for (long long i = 0; i < MAXN; ++i)
+	f2(9, a, n);
 	T2.stop();
 
 	return 0;
