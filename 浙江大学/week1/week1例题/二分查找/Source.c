@@ -1,7 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include <stdio.h>
-#include <stdlib.h>
 
 #define MAXSIZE 10
 #define NotFound 0
